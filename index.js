@@ -4,7 +4,7 @@ const app = express();
 
 app.get('/fuck', (req, res) => {
     return res.json({
-        message: 'you',
+        message: 'you too',
         serverAddress: ip.address()
     })
 });
